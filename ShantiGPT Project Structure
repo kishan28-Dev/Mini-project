@@ -101,3 +101,11 @@ Contains curated Bhagavad Gita shlok dataset.
 
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
 
+ShantiGPT/
+│
+├── client/        # React + Tailwind (UI Layer)
+├── server/        # Node + Express (API & Logic)
+├── database/      # Curated Shlok Data
+├── docs/          # Architecture & Presentation
+├── .env
+└── README.md
