@@ -1,0 +1,103 @@
+### ShantiGPT Project Structure ###
+ShantiGPT/
+│
+├── client/                         # React Frontend
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── assets/                 # Images, icons
+│   │   ├── components/             # Reusable UI components
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── EmotionSelector.jsx
+│   │   │   ├── ShlokCard.jsx
+│   │   │   ├── FeedbackButtons.jsx
+│   │   │   └── CommunityCounter.jsx
+│   │   │
+│   │   ├── pages/                  # Page-level components
+│   │   │   ├── Home.jsx
+│   │   │   ├── Result.jsx
+│   │   │   └── About.jsx
+│   │   │
+│   │   ├── services/               # API calls
+│   │   │   └── api.js
+│   │   │
+│   │   ├── context/                # Global state (optional)
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── tailwind.config.js
+│   └── package.json
+│
+│
+├── server/                         # Node + Express Backend
+│   ├── config/
+│   │   └── db.js                   # MongoDB connection
+│   │
+│   ├── controllers/
+│   │   ├── emotionController.js
+│   │   ├── shlokController.js
+│   │   └── feedbackController.js
+│   │
+│   ├── models/
+│   │   ├── Shlok.js
+│   │   ├── User.js
+│   │   └── Feedback.js
+│   │
+│   ├── routes/
+│   │   ├── emotionRoutes.js
+│   │   ├── shlokRoutes.js
+│   │   └── feedbackRoutes.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorHandler.js
+│   │
+│   ├── utils/
+│   │   └── llmService.js           # LLM API integration
+│   │
+│   ├── server.js
+│   └── package.json
+│
+│
+├── database/
+│   └── shlokSeed.json              # Curated Bhagavad Gita data
+│
+├── docs/
+│   ├── architecture-diagram.png
+│   └── presentation.pptx
+│
+├── .env
+├── .gitignore
+├── README.md
+└── package.json                    # (Optional root config)
+
+
+
+## Folder Explanation
+
+# client/
+React frontend (Presentation Layer)
+Handles:
+- Emotion selection UI
+- Displaying shlok & guidance
+- Community counter
+- Feedback system
+# server/
+Backend (Application + AI Layer)
+Handles
+- Emotion classification
+- LLM API calls
+- Shlok retrieval
+- JWT authentication
+- Feedback storage
+# database/
+Contains curated Bhagavad Gita shlok dataset.
+# docs/
+
+
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
