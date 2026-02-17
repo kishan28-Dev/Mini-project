@@ -1,5 +1,5 @@
-### ShantiGPT Project Structure ###
-ShantiGPT/
+### ShlokSence Project Structure ###
+ShlokSence/
 │
 ├── client/                         # React Frontend
 │   ├── public/
