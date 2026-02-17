@@ -1,5 +1,5 @@
 # Mini-project
-# ShantiGPT
+# Shloksence
 AI + Bhagavad Gita Based Emotional Support Platform
 
 
@@ -25,7 +25,7 @@ AI + Bhagavad Gita Based Emotional Support Platform
 
 
 ## Abstract
-ShantiGPT is a MERN stack-based web application designed to provide structured emotional guidance by integrating modern Artificial Intelligence with curated wisdom from the Bhagavad Gita.
+Shloksence is a MERN stack-based web application designed to provide structured emotional guidance by integrating modern Artificial Intelligence with curated wisdom from the Bhagavad Gita.
 The system uses a Large Language Model (LLM) API to classify user emotions and maps them to a verified Bhagavad Gita shlok database stored in MongoDB. The platform provides structured responses including:
 Original Shlok
 Simplified Meaning
@@ -88,7 +88,7 @@ Feedback stored for analytics.
 
 
 ## System Architecture
-ShantiGPT follows a layered architecture:
+Shloksence follows a layered architecture:
 
 ### Presentation Layer
 - React.js + Tailwind CSS
@@ -198,7 +198,7 @@ Feedback Collection
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
 
 ### Conclusion ###
-ShantiGPT demonstrates the integration of Artificial Intelligence and traditional spiritual wisdom through a structured MERN stack web application. The project highlights full-stack development expertise, API integration, modular architecture, and ethical AI implementation.
+Shloksence demonstrates the integration of Artificial Intelligence and traditional spiritual wisdom through a structured MERN stack web application. The project highlights full-stack development expertise, API integration, modular architecture, and ethical AI implementation.
 
 ### References
 - T. Brown et al., “Language Models are Few-Shot Learners,” NeurIPS, 2020.
