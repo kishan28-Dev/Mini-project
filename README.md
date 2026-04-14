@@ -123,7 +123,7 @@ Stores:
 - JWT
 - Bcrypt password hashing
 # Deployment
-- Vercel (Frontend)
+- Render (Frontend)
 - Render (Backend)
 
 
